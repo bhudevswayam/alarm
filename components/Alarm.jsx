@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import sound from "./alarmAudio.mp3";
 import './Alarm.css'
-// import {DateTimePickerComponent} from '@syncfusion/ej2-react-calendars'
 const Alarm = () => {
     function ringAlarm() {
         var timeValue = prompt("Enter number of Seconds")
@@ -27,7 +26,6 @@ const Alarm = () => {
         }, 5000);
     }
     return <>
-        {/* <DateTimePickerComponent /> */}
         <div className="btnContainer">
         <button className="btn" onClick={ringAlarm}>Set Alarm</button>
         <button className="btn" onClick={stopAlarm}>Stop Alarm</button>
