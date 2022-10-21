@@ -1,0 +1,13 @@
+#clock-cointainer{
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+    color: aqua;
+    font-size: 45px;
+}
+
+@media screen and (max-width: 768px){
+    #clock-cointainer{
+        font-size: 20px;
+    }
+}

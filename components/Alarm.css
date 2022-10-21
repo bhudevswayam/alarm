@@ -1,0 +1,32 @@
+.btnContainer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    overflow: hidden;
+
+}
+@media (max-width: 768px){
+    .btnContainer{
+        width: fit-content;
+        position: relative;
+        left: 20%;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
+.btn{
+    font-weight: 700;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    width: 150px;
+    margin: 10px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(22, 22, 22);
+}

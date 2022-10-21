@@ -1,0 +1,10 @@
+.cointainer{
+    width: 550px;
+    height: 600px;
+}
+
+@media screen and (max-width: 768px){
+    .cointainer{
+        width: 300px;
+    }
+}
